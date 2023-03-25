@@ -1,0 +1,38 @@
+---
+import image from "/images/justin-clark-unsplash.jpg";
+---
+
+<div>
+  <a href="#">
+    <img src={image} alt="image" />
+  </a>
+  <h5>Noteworthy technology acquisitions 2021</h5>
+</div>
+
+<style lang="scss">
+  div {
+    width: min-content;
+
+    a {
+      display: flex;
+
+      img {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+      }
+    }
+
+    h5 {
+      margin: 0;
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+      background-color: #222;
+      color:#fff;
+      padding: 0.5rem 1rem;
+      font-weight: 400;
+    }
+  }
+</style>
