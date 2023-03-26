@@ -7,6 +7,7 @@ npm install
 ```
 
 ## Additional Features
+- MVP.css - classless styling for quickstart
 - Turbolinks - for smooth navigation
 - Sass separation - for globals (eg mixins, functions, etc.)
 
