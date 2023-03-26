@@ -1,12 +1,14 @@
 ---
 import image from "/images/justin-clark-unsplash.jpg";
+
+const { title } = Astro.props;
 ---
 
 <div>
   <a href="#">
     <img src={image} alt="image" />
   </a>
-  <h5>Noteworthy technology acquisitions 2021</h5>
+  <h5>{title}</h5>
 </div>
 
 <style lang="scss">
