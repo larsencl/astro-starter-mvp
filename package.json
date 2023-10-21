@@ -14,11 +14,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/ts-plugin": "^0.4.4",
-    "@astrojs/turbolinks": "^0.2.1",
-    "astro": "^2.3.0"
+    "@astrojs/ts-plugin": "^0.4.5",
+    "@astrojs/turbolinks": "^0.2.2",
+    "astro": "^2.10.15"
   },
   "devDependencies": {
-    "sass": "^1.62.0"
+    "sass": "^1.69.4"
   }
 }
